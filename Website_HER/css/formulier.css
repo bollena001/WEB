@@ -1,0 +1,364 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+    
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
+    
+    body {
+        line-height: 1;
+        width: 100%;
+        text-align: center;
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    
+    blockquote,
+    q {
+        quotes: none;
+    }
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    /* --------   BORDER BOX  -------------------------- */
+    
+    {
+        box-sizing: border-box;
+    }
+    /* --------   FONT   -------------------------- */
+    
+    @font-face {
+        font-family: "Nexa Bold";
+        src: url(../fonts/Nexa Bold.otf);
+    }
+    
+    @font-face {
+        font-family: "Nexa Light";
+        src: url(Nexa Light.otf);
+    }
+    /* ------------  header en navigatie  --------------- */
+    
+    body {
+        font-family: "Nexa Light";
+        font-size: 1em;
+        background-image: url(../img/Mallorca.jpg);
+        color: #4B4B4B;
+    }
+   
+nav {
+    font-family: "Nexa Bold";
+    background-color: #fff;
+    height: 3.1em;
+    color: #fff;
+    box-shadow: 0 0.3125em 0.625em 0 rgba(0, 0, 0, .10);
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    max-width: 30em;
+    padding-top: 1.2em;
+    
+  
+    
+  
+    
+}
+
+
+}
+nav ul li {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+
+
+.logo {
+    float: left;
+    height: 65%;
+    margin-left: 3em;
+    margin-top: 0.55em;
+    
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #00D66C;
+    transition: all 0.5s;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #29129d;
+}
+
+.profiel {
+    width: 2.6em;
+    height: 2.6em;
+    margin-top: -1em;
+    
+}
+
+
+/* inlog section --------------------------------------------------- */
+section {
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+    display: inline-block;
+    text-align: center;
+    border-radius: 1em;
+    margin: 1.5em;
+    padding: 3em 2em 2em 2em;
+    margin-top: 5em;
+}
+fieldset,
+form a {
+    margin-top: 1em;
+}
+button {
+    font-family: "Nexa Bold";
+    color: #fff;
+    padding: 0.75em 1.25em;
+    text-decoration: none;
+    background-color: #a9a9a9;
+    border-radius: 2em;
+    border: none;
+    font-size: 1em;
+    transition: all 0.5s;
+    margin-left: 2em;
+    margin-top: 2em;
+    opacity: 0.4;
+}
+button:hover {
+    background-color: #878787;
+    cursor: pointer;
+}
+form:valid button {
+    opacity: 1;
+    background-color: #ff3268;
+}
+form:valid button:hover {
+    background-color: #f97fa0;
+}
+a {
+    color: #29129d;
+}
+a[href="https://www.facebook.com"] {
+    font-family: "Nexa Bold";
+    text-decoration: none;
+    color: #fff;
+    background-color: #3b5998;
+    padding: 0.75em 1em;
+    margin-top: 2em;
+    border-radius: 2em;
+    transition: all 0.5s;
+}
+a:hover {
+    color: #ff3268;
+    transition: all 0.5s;
+}
+a[href="https://www.facebook.com"]:hover {
+    text-decoration: none;
+    background-color: #5b72a3;
+    color: #fff;
+}
+a[href="https://www.facebook.com"]:active {
+    background-color: #3b5998;
+}
+h4 {
+    margin: 2em 0em 1em 0em;
+}
+form fieldset label input {
+    font-family: "Nexa Light";
+    border-radius: 0.5em;
+    width: 15em;
+    font-size: 0.85em;
+    display: block;
+    text-align: center;
+    transition: 0.15s;
+    padding: 0.6em 0.2em;
+    margin-bottom: 0.25em;
+}
+form fieldset label {
+    display: block;
+    width: 13em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+input:focus {
+    outline: 0;
+    transform: translateY(-0.25em);
+    transition: 0.15s;
+}
+input[type="checkbox"] {
+    margin-top: 4em;
+    transform: none;
+}
+input:valid {
+    border: 0.0625em solid #00D66C;
+    background: url(../afbeeldingen/checkmark.png) no-repeat 0.5em 0.5em;
+    background-position: 97%;
+    background-size: 1.25em 1.25em;
+}
+input:invalid {
+    background-color: #fff;
+    border: 0.0625em solid #a9a9a9;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1.875em #fff inset;
+}
+input:-webkit-autofill {
+    -webkit-text-fill-color: #4B4B4B;
+}
+
+/*BRON BUTTON: https://www.w3schools.com/css/tryit.asp?filename=trycss_forms*/
+
+/* RESPONSIVE --------------------------------------------------- */
+@media only screen and (max-width: 37em) {
+    button {
+        margin-left: 10em;
+    }
+}
+@media only screen and (max-width: 31.25em) {
+    nav img {
+        margin-left: 1.5em;
+    }
+}
+@media only screen and (max-width: 23.125em) {
+    nav img {
+        margin-left: 0.83em;
+        height: 50%;
+        margin-top: 0.75em;
+    }
+}
+
+/* navigatiebalk animatie */
+.nav-omhoog {
+    top: -10em;
+}
+header {
+    transition: top 0.5s ease-in-out;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}

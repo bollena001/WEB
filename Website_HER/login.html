@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+     <link rel="stylesheet" type="text/css" href="css/formulier.css">
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+
+<body>
+     <header>
+
+        <nav>
+            <a href=""><img class="logo" src="img/logo.png" alt="logo">
+            
+
+
+        </nav>
+    </header>
+    <section>
+        <a href="https://www.facebook.com">Verbind met Facebook</a>
+        <h4>Aanmelden binnen enkele seconden</h4>
+
+
+        <h4>of account aanmaken</h4>
+        <form action="index.html">
+            <fieldset>
+                <label>
+                    <input name="email" type="email" required><span>E-mailadres</span>
+                </label>
+                <label>
+                    <input name="wachtwoord" type="password" pattern=".{5,}" required title="Minimaal 5 karakters"> <span>Wachtwoord</span>
+                </label>
+                <label>
+                    <input name="wachtwoord opnieuw" type="password" pattern=".{5,}" required title="Minimaal 5 karakters"> <span>Wachtwoord opnieuw</span>
+                </label>
+            </fieldset>
+            <a href="https://www.transavia.com/nl-NL/mijn-transavia/account/ForgotPassword/"><h4>Wachtwoord vergeten?</h4></a>
+
+
+
+
+            <label>
+                <input name="voorwaarden" type="checkbox" required> <span>Ik ga akkoord met<a href="https://www.transavia.com/nl-NL/mijn-transavia/account/account-aanmaken/#register-t-c"> de Algemene Voorwaarden Van Mijn Transavia</a> </span>
+            </label>
+            <label>
+                <button>account aanmaken</button>
+            </label>
+        </form>
+    </section>
+</body>
+<script type="text/javascript" src="js/animaties.js"></script>
+</html>

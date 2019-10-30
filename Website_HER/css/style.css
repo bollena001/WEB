@@ -1,0 +1,776 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* --------   BORDER BOX  -------------------------- */
+
+{
+    box-sizing: border-box;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* --------   FONT   -------------------------- */
+
+@font-face {
+    font-family: "Nexa Bold";
+    src: url(../fonts/Nexa Bold.otf);
+}
+
+@font-face {
+    font-family: "Nexa Light";
+    src: url(Nexa Light.otf);
+}
+
+
+/* ------------  Code  --------------- */
+
+.hoofdpagina {
+    font-family: "Nexa Light";
+    font-size: 1em;
+    background-size: contain;
+    background-image: url(../img/mallorca3.jpg);
+}
+
+
+/* ------------  Navigatie  --------------- */
+
+nav {
+    font-family: "Nexa Bold";
+    background-color: #fff;
+    height: 3.1em;
+    color: #fff;
+    box-shadow: 0 0.3125em 0.625em 0 rgba(0, 0, 0, .10);
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    max-width: 30em;
+    padding-top: 1.2em;
+    
+  
+    
+  
+    
+}
+
+
+}
+nav ul li {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+
+
+.logo {
+    float: left;
+    height: 65%;
+    margin-left: 3em;
+    margin-top: 0.55em;
+    
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #00D66C;
+    transition: all 0.5s;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #29129d;
+}
+
+.profiel {
+    width: 2.6em;
+    height: 2.6em;
+    margin-top: -1em;
+    
+}
+
+
+/* 2e section met artikelen */
+section {
+    text-align: center;
+    padding-bottom: 2em;
+    margin-top: 2em;
+}
+.section1 {
+    padding-top: 3em;
+}.section2 {
+    margin-top: 5em;
+}
+input:checked + span {
+    font-family: "Nexa Bold";
+    color: #29129d;
+    transition: 0.5s;
+}
+h2 {
+    padding: 0.75em;
+    color: #fff;
+    background-color: #73D702;
+    border-radius: 0.3em 0.3em 0em 0em;
+}
+article {
+    position: relative;
+    display: inline-block;
+    border-radius: 0.75em;
+    background-color: #fff;
+    vertical-align: top;
+    transition: all 0.2s;
+}
+
+.vrienden{
+    background-color: rgba(255,255,255,0.8);
+    
+}
+
+.vrienden img{
+    width:12%;
+    float: left;
+    margin-left: 13%;
+    margin-right: 1em;
+}
+
+
+.vrienden p {
+    line-height: 1.4;
+    padding: 0.5em 1em;
+    text-align: left;
+    padding-bottom: 3.5em;
+    width:80%;
+}
+
+
+
+section a {
+    text-decoration: none;
+    color:
+}
+section a:active {
+    text-decoration: none;
+}
+section a:focus {
+    text-decoration: none;
+}
+article:hover {
+    box-shadow: 0.075em 0.075em 0.75em 0.075em rgba(0, 0, 0, 0.1);
+    ;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.03);
+}
+.droom img {
+    display: block;
+    width: 100%;
+    border-radius: 0em 0em 0.75em 0.75em;
+}
+
+.section2 img {
+    display: block;
+    width: 100%;
+    border-radius: 0em 0em 0.75em 0.75em;
+}
+
+
+h3 {
+    font-family: "Nexa Bold";
+    color: #fff;
+    padding: 1em;
+    background-color: #00D66C;
+    border-radius: 0.75em 0.75em 0em 0em;
+}
+
+
+/* GRID EN FLOW --------------------------------------------------- */
+
+.section1 {
+    display: flex;
+    width: 94%;
+    
+    
+    
+    
+    
+
+    
+  
+    
+
+}
+
+.section2 {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 22em 22em 22em;
+    grid-row-gap: 2em;
+    grid-column-gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4em;
+    background-color: #F3E5D8;
+}
+
+.section2 article {
+    margin-top: 5em;
+
+    
+    
+
+   
+    
+}
+
+
+
+.section1 article {
+    height: 15em;
+    width: 75%;
+    
+
+    
+    
+
+
+}
+
+.droom {
+    background-image: url(../img/Verhaal109.00.png);
+    background-size:cover;
+    
+
+    
+}
+
+.droom img{
+    height: 100%;
+    width: 100%;
+   
+    
+}
+
+
+.aanbevolen {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* FLEXBOX --------------------------------------------------- */
+div {
+    display: flex;
+    flex-direction: row;
+}
+fieldset div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Filter animatie */
+.nav-omhoog {
+    top: -10em;
+}
+header {
+    transition: top 0.5s ease-in-out;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+article p{
+    height: 0em;
+}
+
+
+
+
+.verhalen h1 {
+    color: white;
+    padding: 0;
+    background-color: #ff3268;
+    font-family: "NexaBold";
+    padding: 0.5em 1em 0.5em 1em;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    margin-bottom: -2em;
+}
+
+form {
+    margin: 5.4em 0em 1em 1em;
+    position: absolute;
+    z-index: 1;
+    border-radius: 0.4em 0.4em 0em 0em;
+}
+legend {
+    border-radius: 0.4em;
+}
+form:last-child {
+    margin-left: 12.5em;
+    width: 10.1em;
+}
+legend {
+    color: #fff;
+    padding: 0.6em 3.25em;
+    text-decoration: none;
+    background-color: #29129d;
+    border: none;
+}
+label {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+fieldset label {
+    padding: 0.5em;
+    padding-left: 0em;
+    background-color: #fff;
+}
+input[type=checkbox] {
+    opacity: 0;
+}
+input[type=radio] {
+    opacity: 0;
+}
+input[type=reset] {
+    border-top: 1em solid #000;
+    font-family: "Nexa Light";
+    font-size: 1em;
+    border: none;
+    background-color: #fff;
+    outline: none;
+}
+input[type=reset]:hover {
+    cursor: pointer;
+}
+input[type=reset]:active {
+    color: black;
+}
+
+/*BRON BUTTON: https://www.w3schools.com/css/tryit.asp?filename=trycss_forms*/
+
+/* DROPDOWN --------------------------------------------------- */
+label {
+    display: none;
+}
+form:hover label {
+    display: block;
+    transition: all 0.2s;
+}
+
+/*VERHAAL MOE*/
+
+#pagina3{
+    line-height: 1.4;
+    background-image: url(../img/moeachtergrond-01.png);
+    background-size: 100%;
+    
+    
+}
+
+.moetekst{
+    font-family: "ArialRoundedMTstd";
+    width: 65%;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    color: transparent;
+   text-shadow: 0 0 5px rgba(255,255,255,1.5);
+    
+}
+
+.moetekst:active{
+    color: white;
+}
+
+.va img {
+    margin-top: 5em;
+    width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+       
+}
+
+
+
+/*VERHAAL TERUGSPOELEN*/
+
+#pagina4{
+    line-height: §;
+    background-color: #050017;
+    font-family: "monaco";
+}
+
+.deel1{
+    color: white;
+    width: 50%;
+    line-height: 2;
+    margin-left: 3em;
+    
+}
+
+.deel2{
+    color: white;
+    width: 50%;
+    margin-left: 15em;
+    line-height: 2;
+}
+
+.terugspoel img{
+    width: 40%;
+    display: block;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rewind h1:hover{
+    margin-bottom: 0.5em;
+    -webkit-animation: rotate-center 0.6s ease-in-out both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-10-30 11:56:25
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+
+
+
+/*VERHAAL VA*/
+
+#pagina2{
+   line-height: 1;
+    background-size: auto;
+    background-image: url(../img/houtachtergrond.jpg);
+    
+    
+}
+
+.va img {
+    width: 20em;
+    display: block;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+    
+}
+
+.vatekst p{
+    background-color: rgba(0,0,0,0.6);
+    color: #f9bb91;
+    font-family: "avenir";
+    width: 75%;
+    margin-top: 2em; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vatekst h1{
+     color: sandybrown;
+    margin-top: 2em;
+    font-size: 3em;
+    
+}
+
+/* micro interactie like knop */
+button {
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    width: 8em;
+    height: 8em;
+    background-image: url(../img/grijshart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    border-radius: 50%;
+    border: none;
+    transition: all 0.5s;
+    outline: none;
+}
+button:active {
+    outline: none;
+}
+h4 {
+
+    padding-top: 2em;
+    font-family: "Nexa Bold";
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.visible {
+    opacity: 1;
+    color: #00D66C;
+}
+.liked {
+    color: white;
+    background-image: url(../img/kleurhart.png);
+    background-size: 80%;
+    transition: all 0.5s;
+}
+
+
+.leuk{
+    background-color: white;
+}
+
+.moe h1{
+    color: white;
+    margin-top: 2em;
+    font-size: 3em;
+}
+
+/*BRON: https://w3bits.com/rainbow-text/*/
+.rewind h1{
+     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+    margin-top: 2em;
+    font-size: 3em;
+}
+
+.rewind p{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+    
+}
+
+
+
+.lijst article{
+    margin-top: 10em;
+    width: 100%;
+}
+
+.lijst {
+    background-color: #F3E5D8;
+    margin-top: -5em;
+    
+    
+}
+
+/* RESPONSIVE --------------------------------------------------- */
+@media only screen and (max-width: 47.875em) {
+    
+    body{
+        background-size: auto;
+    }
+     
+    section:nth-of-type(1) {
+        display: block;
+        margin-bottom: -2em;
+        
+    }
+    
+     section:nth-of-type(1) article {
+        margin-bottom: 2em;
+        height: 11em;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 68.75em) {
+    .section2 {
+        grid-template-columns: 22em 22em;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width: 47.875em) {
+     .section2 {
+        grid-template-columns: 22em;
+    }
+    
+    .vrienden p:last-child{
+        opacity: 0;
+    }
+    
+    .vrienden img:nth-of-type(3){
+        opacity: 0;
+    }
+    
+    .lijst article{
+    width: 75%;
+}
+      form {
+    margin-left: 4em;
+    
+}
+
+form:last-child {
+    margin-left: 16.5em;
+    
+}
+}
+
+
+
