@@ -1,0 +1,5 @@
+Mijn code is opgedeeld in 6 losse HTML pagina's: index.html, login.html, mijnlijst.html, Verhaalmoe.html, Verhaalterugspoelen.html & Verhaalva.html.
+De hoofdpagina van mijn verhalen website is gecodeerd in index.html en het formulier in login.html.
+Alle css is te vinden in style.css behalve van het formulier die is te vinden in formulier.css.
+Tot slot is mijn javascript 2 losse documenten: een daarvan is om de like functie op te roepen en de ander op de navigatiebalk te laten verdwijnen als je scrollt.
+Alle bronnen zijn te vinden in de documenten!
